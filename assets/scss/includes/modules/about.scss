@@ -1,0 +1,121 @@
+.list {
+    margin-top: 50px;
+
+    .about-item {
+        position: relative;
+        display: flex;
+        margin-bottom: 15px;
+
+        .about-text {
+            padding-left: 30px;
+
+            span {
+                font-weight: bold;
+                color: $color-2;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 7px;
+            height: 7px;
+            margin-right: 15px;
+            font-size: 16px;
+            background-color: $color-3;
+            border-radius: 50%;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.about {
+    .banner {
+        position: relative;
+
+        .container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 100%;
+            padding-top: 25px;
+        }
+
+        .brand {
+            img {
+                max-width: max-content;
+                width: 100%;
+            }
+        }
+    }
+
+    .content {
+        @import './components/navbar-content';
+
+        .content__inner {
+            margin-top: 60px;
+
+            .about-text {
+                font-size: 16px;
+
+                span {
+                    font-weight: bold;
+                    color: $color-4;
+
+                    &:first-of-type {
+                        color: $color-2;
+                    }
+                }
+            }
+
+            .about-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 85px;
+                margin-top: 40px;
+                margin-bottom: 45px;
+                color: $color-1;
+                background-color: $color-3;
+
+                .icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 125px;
+                    height: 125px;
+                    background-color: $color-1;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+
+                .about-text {
+                    max-width: 880px;
+                    padding-left: 40px;
+
+                    span {
+                        color: $color-1;
+                    }
+                }
+            }
+        }
+    }
+
+    .map {
+        margin-top: 35px;
+        background-color: #fafafa;
+
+        .map-wrap {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
