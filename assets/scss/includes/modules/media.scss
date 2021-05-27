@@ -402,7 +402,7 @@
                 }
             }
 
-            &.pushin, &.sharnir, &.assembly {
+            &.pushin, &.sharnir, &.assembly, &.studyrauf {
                 .content-wrap {
                     .row {
                         flex-wrap: wrap;
@@ -421,6 +421,32 @@
                             width: 100%;
                             overflow-x: auto;
                         }
+
+                        &.img-row {
+                            flex-wrap: wrap;
+
+                            .img-block {
+                                flex: 0 0 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.pull {
+                .row {
+                    .table-block {
+                        flex: 0 0 100%;
+                    }
+                }
+            }
+
+            &.mount {
+                .row {
+                    flex-wrap: wrap;
+
+                    .col-text {
+                        padding-left: 0;
                     }
                 }
             }
