@@ -758,7 +758,7 @@ h1, h2, h3, h4, h5, h6 {
 .raufoss .content .content__inner .text span {
   font-weight: bold;
 }
-.raufoss .content .content__inner .text .number {
+.raufoss .content .content__inner .text .number, .raufoss .content .content__inner .text .link {
   font-weight: bold;
   font-size: 18px;
   color: #1595d2;
@@ -776,71 +776,71 @@ h1, h2, h3, h4, h5, h6 {
   color: #1595d2;
   text-transform: unset;
 }
-.raufoss .content.pushin .content-wrap .img-block img, .raufoss .content.sharnir .content-wrap .img-block img {
+.raufoss .content.pushin .content-wrap .img-block img, .raufoss .content.sharnir .content-wrap .img-block img, .raufoss .content.assembly .content-wrap .img-block img {
   width: 100%;
   height: 100%;
 }
-.raufoss .content.pushin .content-wrap .img-block.construct-img, .raufoss .content.sharnir .content-wrap .img-block.construct-img {
+.raufoss .content.pushin .content-wrap .img-block.construct-img, .raufoss .content.sharnir .content-wrap .img-block.construct-img, .raufoss .content.assembly .content-wrap .img-block.construct-img {
   max-width: 340px;
   width: 100%;
   height: 340px;
 }
-.raufoss .content.pushin .content-wrap .img-block.build-img, .raufoss .content.sharnir .content-wrap .img-block.build-img {
+.raufoss .content.pushin .content-wrap .img-block.build-img, .raufoss .content.sharnir .content-wrap .img-block.build-img, .raufoss .content.assembly .content-wrap .img-block.build-img {
   max-width: 120px;
   width: 100%;
   height: 265px;
 }
-.raufoss .content.pushin .content-wrap .img-block.clap, .raufoss .content.sharnir .content-wrap .img-block.clap {
+.raufoss .content.pushin .content-wrap .img-block.clap, .raufoss .content.sharnir .content-wrap .img-block.clap, .raufoss .content.assembly .content-wrap .img-block.clap {
   max-width: 245px;
   width: 100%;
 }
-.raufoss .content.pushin .content-wrap .img-block.img-last, .raufoss .content.sharnir .content-wrap .img-block.img-last {
+.raufoss .content.pushin .content-wrap .img-block.img-last, .raufoss .content.sharnir .content-wrap .img-block.img-last, .raufoss .content.assembly .content-wrap .img-block.img-last {
   max-width: 340px;
   width: 100%;
   margin: 0 auto;
 }
-.raufoss .content.pushin .content-wrap .img-block.img-first, .raufoss .content.sharnir .content-wrap .img-block.img-first {
+.raufoss .content.pushin .content-wrap .img-block.img-first, .raufoss .content.sharnir .content-wrap .img-block.img-first, .raufoss .content.assembly .content-wrap .img-block.img-first {
   max-width: 500px;
   width: 100%;
 }
-.raufoss .content.pushin .content-wrap .row, .raufoss .content.sharnir .content-wrap .row {
+.raufoss .content.pushin .content-wrap .row, .raufoss .content.sharnir .content-wrap .row, .raufoss .content.assembly .content-wrap .row {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
 }
-.raufoss .content.pushin .content-wrap .row .list, .raufoss .content.sharnir .content-wrap .row .list {
+.raufoss .content.pushin .content-wrap .row .list, .raufoss .content.sharnir .content-wrap .row .list, .raufoss .content.assembly .content-wrap .row .list {
   padding-left: 30px;
 }
-.raufoss .content.pushin .content-wrap .row .list .about-item .number, .raufoss .content.sharnir .content-wrap .row .list .about-item .number {
+.raufoss .content.pushin .content-wrap .row .list .about-item .number, .raufoss .content.sharnir .content-wrap .row .list .about-item .number, .raufoss .content.assembly .content-wrap .row .list .about-item .number {
   font-weight: bold;
   font-size: 18px;
   color: #1595d2;
 }
-.raufoss .content.pushin .content-wrap .row .list .about-item::before, .raufoss .content.sharnir .content-wrap .row .list .about-item::before {
+.raufoss .content.pushin .content-wrap .row .list .about-item::before, .raufoss .content.sharnir .content-wrap .row .list .about-item::before, .raufoss .content.assembly .content-wrap .row .list .about-item::before {
   display: none;
 }
-.raufoss .content.pushin .content-wrap .row .col-text, .raufoss .content.sharnir .content-wrap .row .col-text {
+.raufoss .content.pushin .content-wrap .row .col-text, .raufoss .content.sharnir .content-wrap .row .col-text, .raufoss .content.assembly .content-wrap .row .col-text {
   padding-left: 30px;
 }
-.raufoss .content.pushin .content-wrap .row .col, .raufoss .content.sharnir .content-wrap .row .col {
+.raufoss .content.pushin .content-wrap .row .col, .raufoss .content.sharnir .content-wrap .row .col, .raufoss .content.assembly .content-wrap .row .col {
   display: flex;
   align-items: center;
   flex: 0 0 50%;
 }
-.raufoss .content.pushin .content-wrap .row .col.sec-col, .raufoss .content.sharnir .content-wrap .row .col.sec-col {
+.raufoss .content.pushin .content-wrap .row .col.sec-col, .raufoss .content.sharnir .content-wrap .row .col.sec-col, .raufoss .content.assembly .content-wrap .row .col.sec-col {
   max-width: 380px;
   width: 100%;
   flex-wrap: wrap;
 }
-.raufoss .content.pushin .content-wrap .row .col.sec-col .text, .raufoss .content.sharnir .content-wrap .row .col.sec-col .text {
+.raufoss .content.pushin .content-wrap .row .col.sec-col .text, .raufoss .content.sharnir .content-wrap .row .col.sec-col .text, .raufoss .content.assembly .content-wrap .row .col.sec-col .text {
   font-style: italic;
   opacity: 0.8;
 }
-.raufoss .content.pushin .content-wrap .row .col.sec-col .img-block, .raufoss .content.sharnir .content-wrap .row .col.sec-col .img-block {
+.raufoss .content.pushin .content-wrap .row .col.sec-col .img-block, .raufoss .content.sharnir .content-wrap .row .col.sec-col .img-block, .raufoss .content.assembly .content-wrap .row .col.sec-col .img-block {
   height: 145px;
 }
-.raufoss .content.pushin .content-wrap .row .col-img, .raufoss .content.sharnir .content-wrap .row .col-img {
+.raufoss .content.pushin .content-wrap .row .col-img, .raufoss .content.sharnir .content-wrap .row .col-img, .raufoss .content.assembly .content-wrap .row .col-img {
   max-width: 340px;
   width: 100%;
 }
@@ -1994,18 +1994,18 @@ h1, h2, h3, h4, h5, h6 {
   .raufoss .content .content__inner .img-block img {
     width: 100%;
   }
-  .raufoss .content.pushin .content-wrap .row, .raufoss .content.sharnir .content-wrap .row {
+  .raufoss .content.pushin .content-wrap .row, .raufoss .content.sharnir .content-wrap .row, .raufoss .content.assembly .content-wrap .row {
     flex-wrap: wrap;
   }
-  .raufoss .content.pushin .content-wrap .row .col, .raufoss .content.sharnir .content-wrap .row .col {
+  .raufoss .content.pushin .content-wrap .row .col, .raufoss .content.sharnir .content-wrap .row .col, .raufoss .content.assembly .content-wrap .row .col {
     flex: 0 0 100%;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .raufoss .content.pushin .content-wrap .row .list, .raufoss .content.pushin .content-wrap .row .col-text, .raufoss .content.sharnir .content-wrap .row .list, .raufoss .content.sharnir .content-wrap .row .col-text {
+  .raufoss .content.pushin .content-wrap .row .list, .raufoss .content.pushin .content-wrap .row .col-text, .raufoss .content.sharnir .content-wrap .row .list, .raufoss .content.sharnir .content-wrap .row .col-text, .raufoss .content.assembly .content-wrap .row .list, .raufoss .content.assembly .content-wrap .row .col-text {
     padding-left: 0;
   }
-  .raufoss .content.pushin .content-wrap .row .table-block, .raufoss .content.sharnir .content-wrap .row .table-block {
+  .raufoss .content.pushin .content-wrap .row .table-block, .raufoss .content.sharnir .content-wrap .row .table-block, .raufoss .content.assembly .content-wrap .row .table-block {
     width: 100%;
     overflow-x: auto;
   }

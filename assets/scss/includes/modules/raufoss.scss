@@ -36,7 +36,7 @@
                     font-weight: bold;
                 }
 
-                .number {
+                .number, .link {
                     font-weight: bold;
                     font-size: 18px;
                     color: #1595d2;
@@ -60,8 +60,9 @@
             }
         }
 
-        &.pushin, &.sharnir {
+        &.pushin, &.sharnir, &.assembly {
             .content-wrap {
+
                 .img-block {
                     img {
                         width: 100%;
