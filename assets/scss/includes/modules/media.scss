@@ -402,7 +402,7 @@
                 }
             }
 
-            &.pushin {
+            &.pushin, &.sharnir {
                 .content-wrap {
                     .row {
                         flex-wrap: wrap;
@@ -411,6 +411,15 @@
                             flex: 0 0 100%;
                             flex-wrap: wrap;
                             justify-content: center;
+                        }
+
+                        .list, .col-text {
+                            padding-left: 0;
+                        }
+
+                        .table-block {
+                            width: 100%;
+                            overflow-x: auto;
                         }
                     }
                 }
