@@ -325,6 +325,13 @@
     .about {
         .content {
             .content__inner {
+                .about-text {
+                    &.w-50 {
+                        width: auto;
+                        margin-left: 0;
+                    }
+                }
+
                 .about-wrap {
                     flex-wrap: wrap;
                     height: unset;
@@ -333,6 +340,78 @@
                     .about-text {
                         padding-left: 0;
                         margin-top: 40px;
+                    }
+                }
+            }
+
+            &.prod {
+                .content__inner {
+                    .content-wrap {
+                        .row {
+                            flex-wrap: wrap;
+                        }
+
+                        .img-block img {
+                            width: 100%;
+                        }
+    
+                        &:nth-of-type(2), &:nth-of-type(4) {
+                            .img-block {
+                                display: flex;
+                                flex-wrap: wrap;
+                                height: unset;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.study {
+                .content__inner {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .row {
+                    flex-wrap: wrap;
+
+                    .img-block {
+                        flex: 0 0 100% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .raufoss {
+        .list {
+            .about-subitem {
+                .list {
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .content {
+            .content__inner {
+                .img-block {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &.pushin {
+                .content-wrap {
+                    .row {
+                        flex-wrap: wrap;
+
+                        .col {
+                            flex: 0 0 100%;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
                     }
                 }
             }
